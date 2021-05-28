@@ -28,8 +28,8 @@ body {
 }
 
 .button2 {
-  font-size: 15px;
-  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  font-family: "Maven Pro";
   background: #009CDB;
   padding: 10px 10px; 
   text-align: center; 
@@ -39,8 +39,8 @@ body {
   left: 155px;
 }
 .button1 {
-  font-size: 15px;
-  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  font-family: "Maven Pro";
   background: #009CDB;
   padding: 10px 10px; 
   text-align: center; 
@@ -50,8 +50,8 @@ body {
 }
 
 .button3 {
-  font-size: 15px;
-  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  font-family: "Maven Pro";
   background: #FA6971;
   padding: 10px 10px; 
   text-align: center; 
