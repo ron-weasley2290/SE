@@ -55,7 +55,6 @@ body {
   padding: 10px 10px; 
   text-align: center; 
   width: 160px; 
-  position: absolute;
-  top: 677px;
+  position: relative;
   left: 200px;
 }
