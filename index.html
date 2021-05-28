@@ -25,7 +25,10 @@
         document.execCommand("copy");
         alert("Copied to clipboard!");
       }
-
+      
+     function clearform() {
+  document.getElementById("myform").reset();
+}
 
     </script>
 <style>
@@ -112,6 +115,7 @@ document.getElementById("date").setAttribute('value',today);
          <input type="text" name="Other" id="others" value="" />
       </p>
       <button class = "button1" onclick="checkinput()">Submit</button>
+   <button class = "button3" onclick="clearform()">Clear</button>
     </form>
   </div>
     <div class = "SENotes">
