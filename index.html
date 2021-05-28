@@ -3,8 +3,9 @@
   <head>
     <script>
 
-      function checkinput() {
+    function checkinput() {
         var jtechfit, jtechcomp, jcsrec, jcpro, jsku, jdac, jsolution, jothers;
+        jdate = document.getElementById("date").value;
         jtechfit = document.getElementById("techfit").value;
         jtechdetails = document.getElementById("techdetails").value;
         jtechcomp = document.getElementById("techcomp").value;
@@ -14,7 +15,7 @@
         jdac = document.getElementById("dac").value;
         jsolution = document.getElementById("solution").value;
         jothers = document.getElementById("others").value;
-        document.getElementById("output").value = "## SE: Junaid Ashraf: " + today + " ##" + "\r\n" + "Technical Fit: " + jtechfit + "\r\n" + "Technical Complexity: " + jtechcomp + " - " + jtechdetails + "\r\n" + "CS Recommendation: " + jcsrec + "\r\n" + "Current Process: " + jcpro + "\r\n" + "SKU Recommendation: " + jsku + "\r\n" + "DAC Products: " + jdac + "\r\n" + "Solution Overview: " + jsolution +  "\r\n" + "Other Notes: " + jothers + "\r\n" + "## SE NOTE ##";
+        document.getElementById("output").value = "## SE: Junaid Ashraf: " + jdate + " ##" + "\r\n" + "Technical Fit: " + jtechfit + "\r\n" + "Technical Complexity: " + jtechcomp + " - " + jtechdetails + "\r\n" + "CS Recommendation: " + jcsrec + "\r\n" + "Current Process: " + jcpro + "\r\n" + "SKU Recommendation: " + jsku + "\r\n" + "DAC Products: " + jdac + "\r\n" + "Solution Overview: " + jsolution +  "\r\n" + "Other Notes: " + jothers + "\r\n" + "## SE NOTE ##";
       }
 
       function copyOutputText() {
